@@ -1,0 +1,93 @@
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    flex: 1;
+    width: 100%;
+    
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        translate: -90px;
+        opacity:0;
+        animation: animate 0.4s ease-out forwards;
+
+        @keyframes animate {
+            to{
+                opacity: 1;
+                translate:0 ;
+            }
+        }
+
+    .intro{
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-left: 6px;
+        }
+
+        .name{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /*font a choisir*/
+
+            .text{
+                font-size :150px;
+                line-height: 130px;
+                text-align: center;
+                
+                -webkit-background-clip: text;
+                background-clip: text;
+                /*color: transparent;*/
+            }
+        }
+
+        .stack{
+            position: absolute;
+            bottom: 0;
+            left: -80px;
+            transform-origin: right;
+            rotate: 90deg;
+            white-space: nowrap;
+
+        b{
+            color: aquamarine;
+        }
+        }
+    }
+
+    .profile-img{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:55%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        filter: drop-shadow(10px 20px 15px black);
+        translate: -100px;
+        opacity: 0;
+        animation: animate 0.6s ease-out .2s forwards;
+
+        img {
+            width: 100% ;
+            object-fit: cover;
+            transition: 0.3s ease;
+
+
+        &:hover{
+            scale: 1.02;
+        }
+            
+        }
+    }
+}

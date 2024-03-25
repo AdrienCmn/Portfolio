@@ -1,0 +1,55 @@
+.about{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    align-items: center;
+    gap: 30px ;
+
+    .name {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .txt{
+            font-size: 150px;
+            line-height: 130px;
+            text-align: center;
+
+            &.lg{
+                font-size:200px ;
+                line-height:158px ;
+            }
+        }
+        
+        .me {
+            position: absolute;
+            bottom: 5px;
+            right:10px;
+            font-size: 37px;
+            font-weight: bold;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+
+        .info-card{
+            display: flex;
+            flex-direction: column;
+
+            .title{
+                font-size: 20px;
+                /*couleur*/
+            }
+                .details{
+                    font-size: 16px;
+                    font-weight: normal;
+            }
+        }
+    }
+}
