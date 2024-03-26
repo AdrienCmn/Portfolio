@@ -1,5 +1,5 @@
 import './Header.scss'
-import logo from "../../assets/infinity.png"
+import logo from "../../assets/aclogo1.png"
 import profile from "../../assets/profile.jpeg"
 import { useEffect } from 'react'
 

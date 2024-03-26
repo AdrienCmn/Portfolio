@@ -1,3 +1,4 @@
+import Tag from '../Tag/Tag';
 import './ProjectTemplate.scss';
 
 const ProjectTemplate = ({projectName, projectDesc, tags,
@@ -13,11 +14,7 @@ const ProjectTemplate = ({projectName, projectDesc, tags,
             
             <div className="tags-wrapper">
                 {tags.map((tag) => {
-                    return (
-                        <div className='tag'>
-                            <h2 className='title'>React</h2>
-                        </div>
-                );
+                    return <Tag key={projectName} title={tag} />;
             })}
         </div>
     </div>

@@ -25,13 +25,16 @@ header{
     }
 
     h1{
-        font-size: 18px;
+        font-size: 19px;
+        font-weight: 800;
+
 
         i {
-            background: linear-gradient(#8d86b5, #90a0f2);
+            background: linear-gradient(360deg, #63D4CC, #8BE8D7, #A0F1DA, #B4FADC);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
+            
             }
         }
     }

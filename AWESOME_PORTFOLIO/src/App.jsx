@@ -4,12 +4,13 @@ import Social from "./Components/Header/Social/Social";
 import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Projects/Projects";
+import Contact from "./Pages/Contact/Contact";
 
+import github from "./assets/Github_white.png"
+import linkedin from "./assets/LinkedIN_white.png"
+import discord from "./assets/Discord_white.png"
+import whatsapp from "./assets/WhatsApp_white.png"
 
-import github from "./assets/github.png"
-import linkedin from "./assets/linkedin.png"
-import discord from "./assets/discord.png"
-import whatsapp from "./assets/whatsapp.png"
 
 
 
@@ -45,6 +46,10 @@ function App() {
 
       <div className="page" id="projects">
         <Projects />
+      </div>
+
+      <div className="page" id="contact">
+        <Contact />
       </div>
     </main>
     </div>
