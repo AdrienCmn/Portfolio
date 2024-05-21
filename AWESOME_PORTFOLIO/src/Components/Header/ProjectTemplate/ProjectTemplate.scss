@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    font-family: Roboto Mono;
+}
+
 .project{
     display: flex;
     justify-content: flex-start;
@@ -20,7 +27,7 @@
 
         .project-desc{
             font-size: 16px;
-            color: red;
+            color: black;
         }
 
         .tags{
@@ -42,7 +49,7 @@
                     padding: 0 15px;
                     border-radius: 8px;
                     height:35px ;
-                    background-color: red;
+                    background: #40916c;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -63,7 +70,7 @@
         flex: 2;
         aspect-ratio: 4/3;
         border-radius: 10px;
-        background-color: red;
+        background-color: linear-gradient(180deg, #63D4CC, #8BE8D7, #A0F1DA, #B4FADC);
         cursor: pointer;
         overflow:hidden ;
 

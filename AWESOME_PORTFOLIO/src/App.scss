@@ -52,3 +52,16 @@
         }
     }
 }
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    background-color: #40916c;
+}
+
+html {
+    scroll-behavior: smooth;
+}

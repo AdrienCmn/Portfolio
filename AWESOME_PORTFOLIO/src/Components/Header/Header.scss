@@ -30,7 +30,7 @@ header{
 
 
         i {
-            background: linear-gradient(360deg, #63D4CC, #8BE8D7, #A0F1DA, #B4FADC);
+            background-color: #40916c;
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -90,7 +90,11 @@ header{
             aspect-ratio: 1;
             border-radius: 100px;
             object-fit: cover;
-
+            translate: 0 -150%;
+            transition: 0.3s ease;
+        }
+        &.active img{
+            translate: 0;
         }
     }
 }
