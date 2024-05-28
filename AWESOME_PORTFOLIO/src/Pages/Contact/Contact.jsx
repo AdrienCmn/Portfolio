@@ -16,7 +16,7 @@ Feel free to contact me if you'd like more information or if you're interested i
         </span>
 
         <div className="socials">
-            <Social logo={github} title="GitHub" /> 
+            <Social logo={github} title="GitHub"/> 
             <Social logo={linkedin} title="Linkedin" />
             <Social logo={mail} title="E-mail" />
         </div>
